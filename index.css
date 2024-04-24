@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:  #0074d9;
+    height: 10vh;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+footer {
+    background-color: #333;
+    height: 10vh;
+    color: #fff;
+    text-align: center;
+}
+
+#principal {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+.aside-direito {
+    display: flex;
+    justify-content: end;
+}
+
+#lista-estados li, #lista-municipios li, #lista-favoritos li{
+    list-style-type: none;
+}
+
+.list-link {
+    color: #333;
+    transition: 0.2s;
+}
+
+.list-link:hover {
+    opacity: 0.8;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.list-item button {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.list-item button:hover {
+    opacity: 0.8;
+}
